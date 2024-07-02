@@ -39,7 +39,7 @@ export const NewAbout = ({articles,setArticles}) => {
 
   return (
     <main className='shadow container-fluid p-5 my-5 col-11'>
-        <h1></h1>
+        <h1>Nový článek</h1>
         <form onSubmit={(e)=> {
             handleSubmit(e);
             navigate("/about");
