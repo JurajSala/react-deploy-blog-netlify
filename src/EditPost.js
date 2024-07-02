@@ -15,7 +15,7 @@ export const EditPost = ({posts, editTitle, setEditTitle, editBody, setEditBody,
             setEditBody(result.body);
          }
 
-        }, [id])
+        }, [id, posts,setEditBody,setEditTitle])
   return (
     <NewPost
         componentTitle={"Uprav poštu"}

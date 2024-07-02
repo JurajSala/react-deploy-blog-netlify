@@ -1,16 +1,9 @@
-import React, { useEffect} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import useAxiosFetch from './hooks/useAxiosFetch.js';
 import api from "./api/posts.js"
 
 export const  About = ({articles,setArticles}) => {
  
-
-  const {data, fetchError, isLoading}= useAxiosFetch("http://localhost:3050/about");
- 
-  useEffect(()=>{
-    setArticles(data);
-  },[data])
 
   const handleDelete = async (id)=>{
     try {
@@ -24,17 +17,7 @@ export const  About = ({articles,setArticles}) => {
   }
   return (
     <main className='shadow container-fluid col-10 offset-1 p-3'> 
-    {isLoading && 
-      <div className='col-4 offset-4 text-center p-5'>
-              <div className="spinner-border" role="status">
-                  <span className="sr-only"></span>
-              </div>
-      </div>
-    }
-    { !isLoading  && fetchError && <p className='h3 text-center p-5 text-danger'>{fetchError}</p>
-
-    }
-    { !isLoading && !fetchError && ( articles.length ?
+    {  articles.length ?
       <>
           <div className='row'>
             <h1 className='text-center col-10'>
@@ -70,7 +53,7 @@ export const  About = ({articles,setArticles}) => {
       </>
         : <p className='col text-center p-3'>
                  Nebyla nalezen žádný příspěvek.
-         </p>)}
+         </p> }
        
     </main>
   )

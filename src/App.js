@@ -36,6 +36,20 @@ function App() {
   }, [data])
 
   useEffect(()=>{
+   const fetchArticles= async ()=>{
+       try{
+        const response = await api.get("/about");
+        if(response.data){
+          setArticles(response.data);
+        }
+       }catch(err){
+        console.log(err.nessage());
+       }
+   }
+   fetchArticles();
+  },[articles])
+
+  useEffect(()=>{
    const filterPosts=posts.filter( ( post )=> 
             (post.body.toLowerCase().includes(search.toLowerCase())
             ||
