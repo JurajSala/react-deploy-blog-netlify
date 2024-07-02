@@ -1,0 +1,65 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Pozdrav z večera",
+      "datetime": "June 27 , 2024 10:33:48 PM",
+      "body": "Dnes večer jsem snědl dva buřty a 3 ks pečiva"
+    },
+    {
+      "id": "3",
+      "title": "Ahojte v Broumově",
+      "datetime": "June 27 , 2024 11:05:07 PM",
+      "body": "Zdravím všechny. Zdravím všechny. Zdravím všechny. Zdravím všechny. Zdravím všechny. Zdravím všechny. Zdravím všechny. Zdravím všechny. Zdravím všechny. "
+    },
+    {
+      "id": "4",
+      "title": "Dnešní krmení ",
+      "datetime": "June 29 , 2024 4:15:00 PM",
+      "body": "Krmení proběhlo bez větších problémů. nejvíce problémů je s lidmi."
+    },
+    {
+      "id": "5",
+      "title": "Programování mě bavílo",
+      "today": "July 02 , 2024 1:14:10 PM",
+      "body": "Programování mě baví Programování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě baví"
+    }
+  ],
+  "about": [
+    {
+      "id": "1",
+      "head": "O blogu",
+      "article": "Tato aplikace blog je vývojová zkušební verze blogu pro komunikaci na serveru. Slouží k implementaci funkčnosti a stále se rozšiřujících funkčností. ",
+      "img": "http://img.radio.cz/pictures/r/czech/broumovsko/broumov_klaster4.jpg",
+      "video": ""
+    },
+    {
+      "id": "3",
+      "head": "Broumov jako umělecká inspirace?",
+      "article": "Broumov jako město mám moc rád. Hlavně jeho architekturu. O lidech se to bohužel úplně říci nedá. Možná právě proto jsem našel vztah k hudbě a přírodním  vědám, protože příroda, to je snad největší umělec ze všech!!!",
+      "img": "https://www.hrady-zriceniny.cz/img/foto/2019p/DS128196.JPG",
+      "video": "https://www.youtube.com/embed/6rBeRUiSbuo?si=TC57pvxh5PBpQHjz"
+    },
+    {
+      "id": "4",
+      "head": "Gipsy město",
+      "article": "V Broumově se také velké množství Rómské komunity. Bohužel dnešní rómská menšina už trochu ztratila svého uměleckého ducha. Já osobně obdivuji kapelu Gipsy Kings. Níže je příspěvek Volare. Krásná skladba.",
+      "img": "",
+      "video": "https://www.youtube.com/embed/qmbx4_TQbkA"
+    },
+    {
+      "id": "5",
+      "head": "Krajina na Broumovsku",
+      "article": "Krajina na Broumovsku je velice malebná. Broumov  v kotlině, kterou obepínají z jihu Broumovské Stěny a ze severu Javoří hory",
+      "img": "https://www.broumovsko.cz/foto/17broumovska-skupina-kostelu/0174-sonov-str-109.jpg",
+      "video": ""
+    },
+    {
+      "id": "6",
+      "head": "Gipsy Music",
+      "article": "Gipsy Kings - Bambaleo",
+      "img": "",
+      "video": "https://www.youtube.com/embed/w-isTDv6hq0"
+    }
+  ]
+}
