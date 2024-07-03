@@ -20,9 +20,9 @@
     },
     {
       "id": "5",
-      "title": "Programování mě bavílo",
-      "today": "July 02 , 2024 1:14:10 PM",
-      "body": "Programování mě baví Programování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě bavíProgramování mě baví"
+      "title": "Pozdrav z prázdnin v roce 2024",
+      "today": "July 03 , 2024 12:05:03 PM",
+      "body": "Ahojky z Broumova. Zkouším, jak mi funguje aplikace. Zatím to vcelku jde. Ahojky z Broumova. Zkouším, jak mi funguje aplikace. Zatím to vcelku jde. Ahojky z Broumova. Zkouším, jak mi funguje aplikace. Zatím to vcelku jde. Ahojky z Broumova. Zkouším, jak mi funguje aplikace. Zatím to vcelku jde. "
     }
   ],
   "about": [
@@ -60,6 +60,13 @@
       "article": "Gipsy Kings - Bambaleo",
       "img": "",
       "video": "https://www.youtube.com/embed/w-isTDv6hq0"
+    },
+    {
+      "id": "7",
+      "head": "Španělská hudba",
+      "article": "A moc máme rádi španělskou a jihoamerickou hudbu. Níže je ukázka  brazilské skladby  Tico Tico v podání španělského mistra Paco de Lucii. Který byl jedním z největších kytaristů své doby.",
+      "img": "",
+      "video": "https://www.youtube.com/embed/k6Nw0Hm_wTM"
     }
   ]
 }
